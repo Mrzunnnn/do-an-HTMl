@@ -1,0 +1,309 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.top-web {
+   width: 100%;
+   height: 847px;
+   background-color: #1E28320D;
+}
+
+.container {
+   height: auto;
+   width: 1320px;
+   margin: auto;
+}
+
+.head {
+   display: flex;
+   justify-content: space-between;
+}
+
+.container .top-left {
+   width: 25px;
+   height: 25px;
+   justify-content: center;
+   align-items: center;
+}
+
+.container .top-left i {}
+
+.container .top-center {
+   display: flex;
+}
+
+.container .top-center svg {
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   margin-left: 5px;
+   margin-right: 5px
+}
+
+.container .top-right {
+   justify-content: center;
+   align-items: center;
+
+}
+
+.container .top-right button {
+   margin-left: 22px;
+   border: none;
+   background-color: #fff;
+}
+
+.container .top-right button i {
+   padding-right: 8px;
+}
+
+.menu {
+   margin-top: 30px
+}
+
+.menu ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+.menu ul li {
+   list-style: none;
+}
+
+.menu ul li button {
+   border: none;
+   background-color: #f4f4f4;
+}
+
+.main-top {
+   display: flex;
+   position: relative;
+}
+
+.main-top-left {}
+
+.main-top-left h2 {
+   font-size: 74px;
+   margin-bottom: 54px;
+   margin-top: 155px;
+}
+
+.main-top-left p {
+   font-size: 30px;
+   width: 682px;
+   height: 119px;
+}
+
+.main-top-left button {
+   display: inline-flex;
+   padding: 19px 26px;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   background-color: black;
+   color: white;
+}
+
+.main-top-left button i {
+   font-size: 29px;
+}
+
+.main-top-right {
+   padding-left: 50px;
+   padding-left: 200px;
+}
+
+.main-top-right img {
+   display: flex;
+   width: 424px;
+   height: 542px;
+   position: absolute;
+   top: 81px;
+   right: 98px;
+}
+
+.brands {
+   padding-top: 90px;
+}
+
+
+.brands ul {
+   display: flex;
+   width: 1320px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.brands ul li {
+   list-style: none;
+}
+
+.banner-body {
+   display: flex;
+   width: 100%;
+   height: 648px;
+   margin-top: 90px;
+}
+
+.banner-body-right {
+   width: calc(100%/2);
+   height: 648px;
+}
+
+.banner-body-right ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.banner-body-right ul li {
+   list-style: none;
+
+}
+
+.banner-body-right ul li img .banner-body-right ul li img:nth-child(3) {}
+
+.product {
+   padding-top: 140px;
+}
+
+.product h2 {
+   font-size: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.product-title {
+   display: flex;
+   margin-top: 35px;
+}
+
+.product-title-left {
+   width: 373px;
+   height: 22px;
+}
+
+.product-title-left ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+.product-title-left ul li {
+   list-style: none;
+}
+
+.product-title-left ul li button {
+   border: none;
+   background-color: #fff;
+}
+
+.product-title-right {
+   display: flex;
+}
+
+.product-title-right button {
+   border: none;
+   background-color: #fff;
+}
+
+.product-title-right button img {
+   width: 92px;
+   height: 32px;
+   margin-left: 840px;
+}
+
+.product-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 35px;
+}
+
+.product-card .card .card-tittle {
+   margin-top: 18px;
+}
+
+.product-card .card .card-bottom {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 16px;
+}
+
+.banner-main {
+   width: 100%;
+   position: relative;
+   margin-top: 200px;
+}
+
+.banner-main img {
+   width: 100%;
+   position: absolute;
+}
+
+.banner-main .banner-main-tittle .photo-zara-1 {
+   position: absolute;
+   z-index: 9999;
+   right: 730px;
+   top: 51px;
+}
+
+.banner-main .banner-main-tittle .photo-zara-1 img {
+   width: 732px;
+   height: 309px;
+}
+
+.banner-main .banner-main-tittle .photo-zara-2 {
+   position: absolute;
+   top: 233px;
+   right: 890px;
+}
+
+.banner-main .banner-main-tittle .photo-zara-2 img {
+   width: 191px;
+   height: 81px;
+}
+
+.banner-main .banner-main-tittle .button-zara {
+   width: 237px;
+   height: 72px;
+   position: absolute;
+   top: 550px;
+   right: 660px;
+   background-color: #fff;
+}
+
+.banner-main .banner-main-tittle .button-zara img {
+   display: flex;
+   width: 185px;
+   height: 34px;
+   margin-left: 26px;
+   margin-top: 5px;
+}
+
+.banner-main .banner-main-tittle .button-zara img {
+   width: 185px;
+   height: 34px;
+}
+
+.banner-main .banner-main-tittle .tittle-zara {
+   width: 504px;
+   font-size: 26px;
+   height: 187px;
+   flex-wrap: wrap;
+   position: absolute;
+   z-index: 9999;
+   color: #fff;
+   top: 369px;
+   right: 390px;
+}
+
+.best-seller {
+   margin-top: 1400px;
+}
+
+.best-seller .container h2 {
+   display: flex;
+   justify-content: center;
+
+}
+
